@@ -1,0 +1,6 @@
+[submodule "llama_factory"]
+	path = llama_factory
+	url = https://github.com/hiyouga/LLaMA-Factory
+[submodule "evalchemy"]
+	path = evalchemy
+	url = https://github.com/mlfoundations/Evalchemy

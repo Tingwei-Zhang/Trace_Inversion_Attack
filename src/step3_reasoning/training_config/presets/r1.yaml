@@ -1,0 +1,31 @@
+# R1 source presets.
+# Naming: <style>[_surrogate_<teacher>]_on_<source>
+
+bubble_on_r1:
+  dataset: open_thoughts_with_bubble_r1
+  output_suffix: bubble_on_r1
+
+no_thinking_on_r1:
+  dataset: open_thoughts_with_no_thinking_r1
+  output_suffix: no_thinking_on_r1
+
+thinking_on_r1:
+  dataset: open_thoughts_with_thinking_r1
+  output_suffix: thinking_on_r1
+
+inverted_thinking_surrogate_r1_on_r1:
+  dataset: open_thoughts_with_inverted_thinking_r1_on_r1
+  output_suffix: inverted_thinking_surrogate_r1_on_r1
+
+inverted_thinking_surrogate_r1_no_bubble_on_r1:
+  dataset: open_thoughts_with_inverted_thinking_r1_no_bubble_on_r1
+  output_suffix: inverted_thinking_surrogate_r1_no_bubble_on_r1
+
+# Teacher/inverter is R1-distill model.
+thinking_on_r1_distill:
+  dataset: open_thoughts_with_thinking_r1_distill
+  output_suffix: thinking_on_r1_distill
+
+inverted_thinking_surrogate_r1_distill_on_r1:
+  dataset: open_thoughts_with_inverted_thinking_r1_distill_on_r1
+  output_suffix: inverted_thinking_surrogate_r1_distill_on_r1

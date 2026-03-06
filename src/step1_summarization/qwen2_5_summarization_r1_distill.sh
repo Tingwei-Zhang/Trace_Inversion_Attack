@@ -1,0 +1,14 @@
+python llama_factory/scripts/vllm_infer.py \
+    --model_name_or_path Qwen/Qwen2.5-7B-Instruct \
+    --template qwen \
+    --dataset open_thoughts_to_summarize_r1_distill \
+    --dataset_dir data \
+    --cutoff_len 16384 \
+    --max_new_tokens 8192 \
+    --max_samples 20000 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --repetition_penalty 1.05 \
+    --pipeline_parallel_size 1 \
+    --vllm_config '{"tensor_parallel_size": 2, "gpu_memory_utilization": 0.9, "max_num_batched_tokens": 32768, "max_num_seqs": 256}' \
+    --save_name output/step1_summarization/bubbles_r1_distill.jsonl

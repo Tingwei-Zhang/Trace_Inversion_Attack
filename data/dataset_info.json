@@ -1,0 +1,268 @@
+{
+  "processed_open_thoughts_20k_r1": {
+    "file_name": "step0_preprocessed_data/processed_open_thoughts_20k_r1.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_with_thinking": {
+    "file_name": "step3_reasoning_model_training_data/open_thoughts_with_thinking_r1.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_no_thinking": {
+    "file_name": "step3_reasoning_model_training_data/open_thoughts_no_thinking_r1.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_to_summarize_r1": {
+    "file_name": "step1_summarized_data/open_thoughts_to_summarize_r1.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "processed_open_thoughts_50k_to_inference": {
+    "file_name": "step0_preprocessed_data/processed_open_thoughts_50k_to_inference.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_with_bubble_r1": {
+    "file_name": "step3_reasoning_model_training_data/open_thoughts_with_bubble_r1.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_with_bubble_r1_distill": {
+    "file_name": "step3_reasoning_model_training_data/open_thoughts_with_bubble_r1_distill.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_to_invert_r1_train": {
+    "file_name": "step2_inversion_model_training_data/open_thoughts_to_invert_r1_train.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_to_invert_r1_val": {
+    "file_name": "step2_inversion_model_training_data/open_thoughts_to_invert_r1_val.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_to_invert_r1_distill_train": {
+    "file_name": "step2_inversion_model_training_data/open_thoughts_to_invert_r1_distill_train.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_to_invert_r1_distill_val": {
+    "file_name": "step2_inversion_model_training_data/open_thoughts_to_invert_r1_distill_val.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_to_invert_r1_no_bubble_train": {
+    "file_name": "step2_inversion_model_training_data/open_thoughts_to_invert_r1_no_bubble_train.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_to_invert_r1_no_bubble_val": {
+    "file_name": "step2_inversion_model_training_data/open_thoughts_to_invert_r1_no_bubble_val.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "processed_open_thoughts_20k_chatgpt": {
+    "file_name": "step0_preprocessed_data/processed_open_thoughts_20k_chatgpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_with_no_thinking_chatgpt": {
+    "file_name": "step3_reasoning_model_training_data/open_thoughts_with_no_thinking_chatgpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_with_bubble_chatgpt": {
+    "file_name": "step3_reasoning_model_training_data/open_thoughts_with_bubble_chatgpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_to_invert_chatgpt_val": {
+    "file_name": "step2_inversion_model_training_data/open_thoughts_to_invert_chatgpt_val.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_with_inverted_thinking_r1_on_r1": {
+    "file_name": "step3_reasoning_model_training_data/open_thoughts_with_inverted_thinking_r1_on_r1.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "open_thoughts_with_inverted_thinking_r1_on_chatgpt": {
+    "file_name": "step3_reasoning_model_training_data/open_thoughts_with_inverted_thinking_r1_on_chatgpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  }
+}

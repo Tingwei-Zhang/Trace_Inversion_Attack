@@ -1,0 +1,82 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+display.py
+temp.sh
+temp.py
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local development settings
+.env
+.env.local
+
+# Log files
+*.err
+*.out
+
+# Data files that might be large
+data/*
+!data/dataset_info.json
+data/AM-DeepSeek-R1-Distilled-1.4M/
+data/reasoning_model_training_data/
+data/summarized/
+data/trace_inversion/
+output/*
+!output/.gitkeep
+scripts/*
+!scripts/.gitkeep
+!output/.gitkeep
+legacy/*
+
+
+# temp shell script
+temp.sh
+setup_hf_cache.sh
+
+#model checkpoints that might be large
+t5-finetuned-summary-to-thinking/
+t5-finetuned-summary-to-thinking-legacy/
+longt5-finetuned-summary-to-thinking/
+src/analysis/
+
+# Large model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Ignore Weights & Biases logs
+wandb/
+wandb-debug.log
+wandb-error.log
+wandb-settings/
+inversion_data_20250821.tgz
+inversion_eval_bundle_20250822.tgz
+# End of Selection
+
+script_1.sh
+script_2.sh
+script_temp.sh
+src/step2_inversion/evaluation/prepare_eval_chunks.py
+src/step2_inversion/evaluation/submit_eval_parts.py
+setup_conda.sh
+qwen_full_sft_inversion.tar.gz

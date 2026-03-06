@@ -1,0 +1,21 @@
+# ChatGPT source presets.
+# Naming: <style>[_surrogate_<teacher>]_on_<source>
+
+bubble_on_chatgpt:
+  dataset: open_thoughts_with_bubble_chatgpt
+  output_suffix: bubble_on_chatgpt
+
+no_thinking_on_chatgpt:
+  dataset: open_thoughts_with_no_thinking_chatgpt
+  output_suffix: no_thinking_on_chatgpt
+
+# Currently produced from step3 format preset: r1_distill_on_chatgpt
+inverted_thinking_surrogate_r1_on_chatgpt:
+  dataset: open_thoughts_with_inverted_thinking_r1_on_chatgpt
+  output_suffix: inverted_thinking_surrogate_r1_on_chatgpt
+
+# Teacher/inverter is R1-distill model.
+inverted_thinking_surrogate_r1_distill_on_chatgpt:
+  dataset: open_thoughts_with_inverted_thinking_r1_distill_on_chatgpt
+  output_suffix: inverted_thinking_surrogate_r1_distill_on_chatgpt
+

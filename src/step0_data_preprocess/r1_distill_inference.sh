@@ -1,0 +1,14 @@
+python llama_factory/scripts/vllm_infer.py \
+    --model_name_or_path deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B \
+    --template qwen \
+    --dataset processed_open_thoughts_20k_to_inference \
+    --dataset_dir data \
+    --cutoff_len 16384 \
+    --max_new_tokens 8192 \
+    --max_samples 20000 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --repetition_penalty 1.05 \
+    --pipeline_parallel_size 1 \
+    --vllm_config '{"tensor_parallel_size": 2, "gpu_memory_utilization": 0.9, "max_num_batched_tokens": 32768, "max_num_seqs": 256}' \
+    --save_name output/step0_data_preprocess/processed_open_thoughts_20k_to_inference.jsonl
